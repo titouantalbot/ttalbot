@@ -213,35 +213,37 @@ function homeView(){
       <h1>Titouan Talbot — BTS SIO, option SISR</h1>
       </div>
     <div class="topo">
-      <svg viewBox="0 0 760 300" xmlns="http://www.w3.org/2000/svg">
+      <svg viewBox="0 0 820 400" xmlns="http://www.w3.org/2000/svg">
         <g stroke="var(--border)" stroke-width="1.5">
-          <line x1="380" y1="150" x2="140" y2="45"/>
-          <line x1="380" y1="150" x2="620" y2="45"/>
-          <line x1="380" y1="150" x2="140" y2="255"/>
-          <line x1="380" y1="150" x2="620" y2="255"/>
+          <line x1="410" y1="200" x2="150" y2="60"/>
+          <line x1="410" y1="200" x2="670" y2="60"/>
+          <line x1="410" y1="200" x2="150" y2="340"/>
+          <line x1="410" y1="200" x2="670" y2="340"/>
         </g>
-        <circle cx="380" cy="150" r="46" fill="var(--surface)" stroke="var(--accent)" stroke-width="2.5"/>
-        <text x="380" y="145" text-anchor="middle" class="topo-node" style="font-size:14px;">PORTFOLIO</text>
-        <text x="380" y="163" text-anchor="middle" class="topo-node-dim" style="font-size:12px;">Titouan</text>
+        <rect x="310" y="145" width="200" height="110" rx="3" fill="var(--surface)" stroke="var(--accent)" stroke-width="2.5"/>
+        <text x="410" y="172" text-anchor="middle" class="topo-node" style="font-size:16px; font-weight:700;">PORTFOLIO</text>
+        <text x="410" y="192" text-anchor="middle" class="topo-node-dim" style="font-size:12px;">Titouan</text>
+        <text x="410" y="211" text-anchor="middle" class="topo-node-dim" style="font-size:11px;">Étudiant en 2ème année</text>
+        <text x="410" y="226" text-anchor="middle" class="topo-node-dim" style="font-size:11px;">de BTS SIO (SISR).</text>
 
         <a href="#/aps" class="topo-link">
-          <circle cx="140" cy="45" r="34" fill="var(--surface)" stroke="var(--border)" stroke-width="1.5"/>
-          <text x="140" y="50" text-anchor="middle" class="topo-node" style="font-size:14px;">APs</text>
+          <circle cx="150" cy="60" r="40" fill="var(--surface)" stroke="var(--border)" stroke-width="1.5"/>
+          <text x="150" y="66" text-anchor="middle" class="topo-node" style="font-size:15px;">APs</text>
         </a>
 
         <a href="#/stages" class="topo-link">
-          <circle cx="620" cy="45" r="34" fill="var(--surface)" stroke="var(--border)" stroke-width="1.5"/>
-          <text x="620" y="50" text-anchor="middle" class="topo-node" style="font-size:14px;">Stage</text>
+          <circle cx="670" cy="60" r="40" fill="var(--surface)" stroke="var(--border)" stroke-width="1.5"/>
+          <text x="670" y="66" text-anchor="middle" class="topo-node" style="font-size:15px;">Stage</text>
         </a>
 
         <a href="#/cv" class="topo-link">
-          <circle cx="140" cy="255" r="34" fill="var(--surface)" stroke="var(--border)" stroke-width="1.5"/>
-          <text x="140" y="260" text-anchor="middle" class="topo-node" style="font-size:14px;">CV</text>
+          <circle cx="150" cy="340" r="40" fill="var(--surface)" stroke="var(--border)" stroke-width="1.5"/>
+          <text x="150" y="346" text-anchor="middle" class="topo-node" style="font-size:15px;">CV</text>
         </a>
 
         <a href="#/veille" class="topo-link">
-          <circle cx="620" cy="255" r="34" fill="var(--surface)" stroke="var(--border)" stroke-width="1.5"/>
-          <text x="620" y="260" text-anchor="middle" class="topo-node" style="font-size:14px;">Veille</text>
+          <circle cx="670" cy="340" r="40" fill="var(--surface)" stroke="var(--border)" stroke-width="1.5"/>
+          <text x="670" y="346" text-anchor="middle" class="topo-node" style="font-size:15px;">Veille</text>
         </a>
       </svg>
     </div>`;
